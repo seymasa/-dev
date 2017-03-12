@@ -1,0 +1,174 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(245, 177, 32, 0.37);
+}
+.kutu {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+  background: url('images/arkaplan.png');
+}
+a{
+  text-decoration: none;
+}
+.header-container nav{
+  height: 100px;
+  margin:10px;
+  border-bottom: 2px solid rgba(246, 33, 105, 0.85);;
+}
+.header-container nav a{
+  color:rgba(246, 33, 105, 0.85);
+}
+.background-img{
+  width: 100%;
+  opacity: 0.5;
+}
+.header-container{
+  width: 100%;
+  position: absolute;
+  top:0;
+}
+.main-header{
+  width:100%;
+  height: 112px;
+  position: relative;
+}
+.header-logo{
+  float: left;
+  height:inherit;
+  margin: -5px;
+}
+.main-header h1 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 27px;
+}
+.header-contact{
+  float: right;
+  height: 100%;
+  line-height: 56px;
+  padding: 18px;
+}
+.header-nav{
+  height: 100%;
+  padding-left: 0;
+  margin: 0 auto;
+  width: 780px;
+  text-align: center;
+  padding: 18px;
+}
+.header-nav li {
+  display: inline-block;
+  line-height: 56px;
+}
+
+.header-nav a{
+  padding: 10px;
+}
+a:hover { 
+  background-color: rgba(245, 177, 32, 0.37);
+  color: #F62169;
+  font-weight: bold;
+}
+.title-container{
+  margin: 0 auto;
+  width: 45%;
+}
+
+.slider {
+  height: 400px;
+}
+.slider .slide {
+  height: 400px;
+  overflow: hidden;
+  display: none; /* gösterme */
+  position: relative; /* bir üstteki relative bu olacak */
+}
+.slider .slide.active {
+  display: block; /* göster */
+}
+.slider .slide img {
+  
+}
+.slider .slide h3 {
+  position: absolute;
+  bottom: 0; /* bir üstteki relative'e göre bottom:0'da (yani en altında) */
+  text-align: center;
+  color: #000;
+  z-index: 9;
+  width: 100%;
+}
+
+.footer{
+    border: 1px solid #2B2B2B;
+    background: #2B2B2B;
+}
+
+.footer p{
+  color:rgba(246, 33, 105, 0.85);
+  text-align: center;
+}
+
+.articles-container {
+  padding: 0 20px;
+  width: 660px;
+  float: left;
+}
+
+.contact-container {
+  padding: 10px;
+  width: 210px;
+  float: right;
+  margin-top: 60px;
+}
+
+.sagkutuornek {
+  border: 1px solid #2B2B2B;
+  width: 100%;
+  height: 245px;
+  text-align: center;
+  background-color: rgba(245, 177, 32, 0.37);
+}
+.sagkutuornek h3{
+  color: rgba(246, 33, 105, 0.85);
+}
+.menu{
+  position: relative;
+}
+.menu > ul > li {
+  position: relative;
+}
+.menu > ul > li ul{
+  display: none;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 300px;
+  background-color: rgba(245, 177, 32, 0.37);
+  color: #F62169;
+}
+.menu > ul > li:hover > a {
+  background-color: rgba(245, 177, 32, 0.37);
+  color: #F62169;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  z-index: 9;
+}
+.menu > ul > li > ul > li {
+  display: block;
+  text-align: left;
+  line-height: 38px;
+}
+.menu > ul > li > ul > li > a {
+  display: block;
+  padding: 0 10px;
+}
+.menu > ul > li > ul > li:hover> a {
+  background-color: rgba(71, 65, 49, 0.89);
+  color: #fefefe
+}
